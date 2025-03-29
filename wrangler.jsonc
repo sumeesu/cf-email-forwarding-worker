@@ -9,7 +9,16 @@
 	"compatibility_date": "2025-03-27",
 	"observability": {
 		"enabled": true
-	}
+	},
+	"vars": {
+		"APP_API_URL": "https://wr.do/api/v1/email-catcher"
+	},
+	"r2_buckets": [
+		{
+			"binding": "R2_BUCKET",
+			"bucket_name": "wremail"
+		}
+	]
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
