@@ -1,4 +1,4 @@
-## CF Email Worker
+## Cf email forwarding worker
 
 用于将 Worker 接收的邮件转发到第三方 APP
 
