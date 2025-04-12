@@ -11,6 +11,6 @@ git clone https://github.com/oiov/cf-email-forwarding-worker.git
 cd cf-email-forwarding-worker
 pnpm install
  
-wranler login 
-wranler deploy
+wrangler login 
+wrangler deploy
 ```
