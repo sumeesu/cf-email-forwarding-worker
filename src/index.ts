@@ -25,8 +25,8 @@ export default {
 			html: email.html || '',
 			date: email.date || '',
 			messageId: email.messageId || '',
-			cc: JSON.stringify(email.cc || []), // 抄送人
-			replyTo: email.replyTo || '',
+			cc: JSON.stringify(email.cc || []),
+			replyTo: JSON.stringify(email.replyTo || ''),
 			headers: JSON.stringify(email.headers || []),
 			attachments: [] as {
 				filename: string;
