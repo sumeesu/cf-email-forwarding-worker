@@ -3,6 +3,7 @@ import PostalMime, { Email } from 'postal-mime';
 interface Env {
 	R2_BUCKET: R2Bucket;
 	APP_API_URL: string;
+	ENABLE_ATTACHMENTS: string;
 }
 
 export default {
@@ -36,7 +37,7 @@ export default {
 			}[],
 		};
 
-		if (email.attachments && email.attachments.length > 0) {
+		if (env.ENABLE_ATTACHMENTS === '1' && email.attachments && email.attachments.length > 0) {
 			const date = new Date();
 			const year = date.getUTCFullYear();
 			const month = date.getUTCMonth() + 1;
