@@ -11,13 +11,13 @@
 		"enabled": true
 	},
 	"vars": {
-		"APP_API_URL": "https://wr.do/api/v1/email-catcher",
+		"APP_API_URL": "https://uwk.cc/api/v1/email-catcher",
 		"ENABLE_ATTACHMENTS": "1"
 	},
 	"r2_buckets": [
 		{
 			"binding": "R2_BUCKET",
-			"bucket_name": "wremail"
+			"bucket_name": "uwk"
 		}
 	]
 	/**
