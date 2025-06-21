@@ -11,7 +11,7 @@
 		"enabled": true
 	},
 	"vars": {
-		"APP_API_URL": "https://uwk.cc/api/v1/email-catcher",
+		"APP_API_URL": "https://www.uwk.cc/api/v1/email-catcher",
 		"ENABLE_ATTACHMENTS": "1"
 	},
 	"r2_buckets": [
